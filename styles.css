@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .header {
@@ -118,6 +119,7 @@ a {
     text-align: right;
     font-weight: bold;
     color: #1F2937;
+    font-size: 25px;
 }
 
 .section-four {
