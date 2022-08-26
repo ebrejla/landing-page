@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto';
 }
 
 .header {
@@ -11,11 +10,12 @@ body {
     background-color: #1F2937;
     padding-left: 300px;
     padding-right: 300px;
+    padding-bottom: 100px;
 }
 
 .header-logo {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 1000;
     color: #F9FAF8;
 }
 
@@ -34,9 +34,11 @@ a {
 
 .section-one {
     display: flex;
+    align-items: center;
     background-color: #1F2937;
     padding-left: 300px;
     padding-right: 300px;
+    padding-bottom: 100px;
 }
 
 .hero-header {
@@ -48,6 +50,8 @@ a {
 .one-subsection {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .hero-text {
@@ -59,13 +63,16 @@ a {
     background-color: #3882F6;
     color: #E5E7EB;
     border: none;
+    border-radius: 5px;
     padding: 0.35em 1.2em;
-    max-width: 200px;
+    max-width: 100px;
 }
 
 .section-two {
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .header-two {
@@ -74,27 +81,30 @@ a {
     color: #1F2937;
     font-weight: bold;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .card-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 50px;
 }
 
 .card {
     display: flex;
     max-width: 200px;
     flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
 }
 
 .section-three {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 300px;
-    padding-right: 300px;
     background-color: #E5E7EB;
+    padding: 100px 300px;
 }
 
 .quote-text {
@@ -139,6 +149,7 @@ a {
     border-style: solid;
     padding: 0.35em 1.2em;
     max-width: 200px;
+    border-radius: 5px;
 }
 
 .footer {
